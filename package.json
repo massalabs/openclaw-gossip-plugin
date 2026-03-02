@@ -7,14 +7,12 @@
     "build": "tsc -p tsconfig.json",
     "test": "vitest run"
   },
-  "peerDependencies": {
-      "openclaw": ">=2026.3.1"
-  },
   "dependencies": {
     "@massalabs/gossip-sdk": "0.0.2-dev.20260226131013",
     "zod": "^4.3.6"
   },
   "devDependencies": {
+    "openclaw": ">=2026.3.1",
     "@types/node": "^22.10.5",
     "typescript": "^5.7.3",
     "vitest": "^4.0.18"
@@ -34,8 +32,7 @@
       "quickstartAllowFrom": true
     },
     "install": {
-      "npmSpec": "@openclaw/gossip",
-      "localPath": "extensions/gossip",
+      "npmSpec": "@massalabs/openclaw-gossip-plugin",
       "defaultChoice": "npm"
     }
   }
