@@ -4,7 +4,8 @@
   "description": "OpenClaw Gossip channel plugin for post-quantum encrypted decentralized messaging",
   "type": "module",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
   },
   "peerDependencies": {
       "openclaw": ">=2026.3.1"
