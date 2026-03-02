@@ -1,0 +1,39 @@
+{
+  "name": "@massalabs/openclaw-gossip-plugin",
+  "version": "0.0.1",
+  "description": "OpenClaw Gossip channel plugin for post-quantum encrypted decentralized messaging",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@massalabs/gossip-sdk": "0.0.2-dev.20260226131013",
+    "openclaw": "^2026.3.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3",
+    "vitest": "^4.0.18"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "channel": {
+      "id": "gossip",
+      "label": "Gossip",
+      "selectionLabel": "Gossip Chat",
+      "docsPath": "/channels/gossip",
+      "docsLabel": "gossip",
+      "blurb": "Privacy-focused decentralized messenger with post-quantum encryption.",
+      "order": 56,
+      "quickstartAllowFrom": true
+    },
+    "install": {
+      "npmSpec": "@openclaw/gossip",
+      "localPath": "extensions/gossip",
+      "defaultChoice": "npm"
+    }
+  }
+}
