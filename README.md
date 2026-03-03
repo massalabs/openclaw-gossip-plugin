@@ -19,25 +19,17 @@ This repository contains the OpenClaw Gossip channel plugin, a privacy‑focused
 
 The Gossip channel is distributed as an **external OpenClaw plugin**, published on npm from this repository.
 
-#### Onboarding (recommended)
-
-- The onboarding wizard (`openclaw onboard`) and `openclaw channels add` list optional channel plugins.
-- When you select **Gossip** there, OpenClaw will install this plugin from npm (using the npm spec configured in `package.json`).
-- If you are running a dev build of OpenClaw, you can choose to link an already checked‑out copy of this repo instead of installing from npm.
-
-#### Manual install
-
-Install from npm (recommended for most users):
-
 ```bash
 openclaw plugins install @massalabs/openclaw-gossip-plugin
 ```
 
-If your OpenClaw configuration supports short names, you may also be able to run:
+#### Onboarding
 
-```bash
-openclaw plugins install gossip
-```
+- The onboarding wizard (`openclaw onboard`) and `openclaw channels add` list optional channel plugins.
+- When you select **Gossip** there, you can create your openclaw gossip account.
+- If you are running a dev build of OpenClaw, you can choose to link an already checked‑out copy of this repo instead of installing from npm.
+
+#### Manual install
 
 For local development with this repository (no OpenClaw monorepo checkout required):
 
