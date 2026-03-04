@@ -1,12 +1,8 @@
----
-summary: "Gossip decentralized messenger with post-quantum encryption"
----
 
 ### Gossip channel plugin for OpenClaw
 
-**Status:** Optional plugin.
 
-This repository contains the OpenClaw Gossip channel plugin, a privacy‑focused, decentralized messenger that enables OpenClaw to send and receive encrypted direct messages without requiring a phone number or relying on centralized servers. For more details about the Gossip network itself, see the official site at `https://usegossip.massa.network/`.
+This repository contains the OpenClaw Gossip channel plugin, a privacy‑focused, decentralized messenger that enables OpenClaw to send and receive encrypted direct messages without requiring a phone number or relying on centralized servers. For more details about the Gossip network itself, see the official site at [https://usegossip.massa.network/](https://usegossip.massa.network/).
 
 ### Why Gossip?
 
